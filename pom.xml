@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>Assignment1</groupId>
-  <artifactId>Assignment1</artifactId>
+  <groupId>Java Advance Assignment 1</groupId>
+  <artifactId>Java Advance Assignment 1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -25,7 +25,7 @@
               <goal>java</goal>
             </goals>
             <configuration>
-              <mainClass>com.nagarro.javatraining.assignment1.controller.Utility</mainClass>
+              <mainClass>com.nagarro.JavaAdvanceAssignment1.controller.Utility</mainClass>
             </configuration>
           </execution>
         </executions>

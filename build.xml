@@ -46,7 +46,7 @@
         <mkdir dir="${build.dir}/lib"/>
 		<jar destfile="${build.dir}/lib/MyJar.jar" basedir="${build.dir}/class">
 			<manifest>
-				<attribute name="Main-Class" value="com.nagarro.javatraining.assignment1.controller.Utility"/>
+				<attribute name="Main-Class" value="com.nagarro.JavaAdvanceAssignment1.controller.Utility"/>
 			</manifest>
 		</jar>
 	</target>
