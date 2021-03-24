@@ -1,0 +1,10 @@
+com\nagarro\javatraining\assignment1\model\FlightDurationComparator.class
+com\nagarro\javatraining\assignment1\controller\Utility.class
+com\nagarro\javatraining\assignment1\controller\ModificationWatcher.class
+com\nagarro\javatraining\assignment1\model\UserInput.class
+com\nagarro\javatraining\assignment1\input\UserInputValidator.class
+com\nagarro\javatraining\assignment1\model\Flight.class
+com\nagarro\javatraining\assignment1\input\DirectoryReader.class
+com\nagarro\javatraining\assignment1\model\FlightPriceComparator.class
+com\nagarro\javatraining\assignment1\model\Constants.class
+com\nagarro\javatraining\assignment1\input\InputAcceptor.class
