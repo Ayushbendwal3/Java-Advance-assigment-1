@@ -16,20 +16,20 @@ public class InputAcceptor implements Constants {
         Date flightDate = null;
 
         System.out.println("------------------------------------------------------------------------");
-        System.out.println("                    Welcome to PlanMyTravel Portal                      ");
+        System.out.println("                    Welcome to Flight Enquiry Portal                    ");
         System.out.println("------------------------------------------------------------------------");
-        System.out.print("DEP LOC: ");
+        System.out.print("Departure Location: ");
 
         while ((source = UserInputValidator.validateSource(br.readLine())) == null) {
             continue;
         }
 
-        System.out.print("ARR LOC: ");
+        System.out.print("Arrival Location: ");
         while ((destination = UserInputValidator.validateDestination(br.readLine())) == null) {
             continue;
         }
 
-        System.out.print("Flight Class: ");
+        System.out.print("Flight Class (E/B) : ");
         while ((flightClass = UserInputValidator.validateFlightClass(br.readLine())) == null) {
             continue;
         }

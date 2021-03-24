@@ -18,9 +18,17 @@
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
         <version>1.2.1</version>
-        <configuration>
-             <mainClass>com.nagarro.javatraining.assignment1.controller.Utility</mainClass>
-        </configuration>
+        <executions>
+          <execution>
+            <phase>test</phase>
+            <goals>
+              <goal>java</goal>
+            </goals>
+            <configuration>
+              <mainClass>com.nagarro.javatraining.assignment1.controller.Utility</mainClass>
+            </configuration>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>

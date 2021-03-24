@@ -26,7 +26,7 @@ public class Flight implements Constants {
         this.flightDuration = flightDuration;
         this.seatAvailability = seatAvailability;
         this.flightClass = flightClass;
-        if (flightClass.equalsIgnoreCase("EB"))
+        if (flightClass.equalsIgnoreCase("B"))
             fare = 140 * fare / 100;
         this.fare = fare;
     }

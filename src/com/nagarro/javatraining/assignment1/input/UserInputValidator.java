@@ -31,7 +31,7 @@ public class UserInputValidator implements Constants {
                 }
             }
         }
-        System.err.print("Flights from no such stations found, Kindly Enter Again: ");
+        System.err.print("No Flights are depart from given location, Kindly Try Different Location : ");
         return null;
     }
 
@@ -44,15 +44,15 @@ public class UserInputValidator implements Constants {
                 }
             }
         }
-        System.err.print("Flights to no such stations found, Kindly Enter Again: ");
+        System.err.print("No Flights are arrived from departure location to given location, Kindly Try Different Location : ");
         return null;
     }
 
     public static String validateFlightClass(String str) {
-        if (str.equalsIgnoreCase("E") || str.equalsIgnoreCase("EB"))
+        if (str.equalsIgnoreCase("E") || str.equalsIgnoreCase("B"))
             return str.toUpperCase();
         else {
-            System.err.print("Flight Class entered Inappropriately, Enter Again :");
+            System.err.print("Flight Class entered Inappropriately, Enter Again (E/B):");
             return null;
         }
     }
